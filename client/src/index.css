@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+  font-family: "Montserrat", sans-serif !important;
+}
+
+/* antd overriding */
+
+input{
+  border-radius: 2px !important;
+  border: 1px solid rgba(128, 128, 128, 0.521) !important;
+  height: 40px !important;
+  
+}
+input:focus, .ant-picker{
+  outline: none;
+  box-shadow: none;
+  border: 1px solid gray !important;
+}
+
+
+label{
+    font-size: 16px !important;
+    color: white !important;
+    
+}
+
+.ant-form-item{
+  margin: 10px 0 !important;
+}
+
+.ant-picker-input input{
+  border: none !important;
+}
+.ant-picker{
+  border-radius: 2px !important;
+  border: 1px solid rgba(128, 128, 128, 0.521) !important;
+  height: 40px !important;
+}
+
+
+/* common styling */
+.title{
+  display: flex;
+  justify-content: space-between;
+}
+.container{
+  margin: 5px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.page-title{
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.879);
+  font-weight: bold;
+}
+
+.card-title{
+  font-size: 22px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.612);
+}
+.normal-text{
+  font-size: 1rem;
+}
+
+.card{
+  box-shadow: 0 0 2px rgb(184, 183, 183);
+  border-radius: 0 !important;
+}
+.primary-button{
+  background-color: #47c2c2 !important;
+  border-color: #47c2c2 !important;
+  height: 40px !important;
+  width:  100% !important;
+  color: white !important;
+  font-size: 16px !important;
+  width: max-content !important;
+
+}
+.full-width-button{
+  width: 100% !important;
+}
+p{
+  color: rgba(0, 0, 0, 0.615);
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+  
+}
+.anchor{
+  color: white !important;
+  text-decoration: underline;
+  font-size: 16px !important;
+  cursor: pointer;
+}
+.anchor:hover{
+  text-decoration: underline !important;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+/* authentication pages */
+
+.authentication{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #248b8b;
+}
+.authentication-form{
+  width: 400px;
+  background-color: rgb(16,37,53);
+}
+.authentication .card-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: orangered;
+  color: rgb(255, 255, 255) !important;
+  max-width: max-content !important;
+  padding: 7px 15px;
+  margin-left: -40px;
+  border-bottom-left-radius: 10px;
+}
